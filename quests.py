@@ -145,7 +145,7 @@ quest_6 = """
 ║                                      ║
 ╚══════════════════════════════════════╝
 """
-hunts = {
+quests = {
 2: quest_6,
 17: quest_1,
 21: quest_2, 
@@ -155,29 +155,20 @@ hunts = {
 }
 def load_quests(day):
 
-    while run == True: 
-        load = input("Would you load old hunts and quests? (yes/no)")
-        if load == "yes":
-            print("──────────────────────────────────────────────────────────────")
-            print("Holy peak lets do this")
-            print("loading old hunts...")
-            # old_hunts()
-            print("loading old quests...")
-            # old_quests()
-            print("──────────────────────────────────────────────────────────────")
-        elif load == "no": 
-            print()
-            print("──────────────────────────────────────────────────────────────")
-            print("Okie smokie, cutie!")
-            print("Come back when you're ready to start a new day!")
-            print(" I LOVE YOU SO MUCH")
-            print("──────────────────────────────────────────────────────────────")
-            run = False
-            break
-        else: 
-            print()
-            print("──────────────────────────────────────────────────────────────")
-            print("Hmm... I don't recognize that answer. ")
-            print("Please enter 'yes' or 'no'.")
-            print("──────────────────────────────────────────────────────────────")
-            print()
+    if day in quests:
+        print()
+        print("╔══════════════════════════════════════════════════════════════╗")
+        print("║                                                              ║")
+        print("║                       New Quest Found!                       ║")
+        print("║                                                              ║")
+        print("╚══════════════════════════════════════════════════════════════╝")
+        print()        
+        print(quests[day])
+    else:
+        print()
+        print("╔══════════════════════════════════════════════════════════════╗")
+        print("║                                                              ║")
+        print("║                No quest available for this day.              ║")
+        print("║                                                              ║")
+        print("╚══════════════════════════════════════════════════════════════╝")
+        print()  
