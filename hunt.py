@@ -18,7 +18,13 @@ reading_3 = "You've unlocked chapter 14 reading from Harry Potter and the Sorcer
 "C:/Users/User/Desktop/Complex Variables"
 reading_4 = "You've unlocked chapter 15 reading from Harry Potter and the Sorcerer's Stone! \n" \
 "To listen, open file explorer, then copy this link into the top search bar:\n" \
-"C:/Users/User/Desktop/Complex Variables"
+"C:\Users\User\Desktop\Linear and Multivariable Control"
+reading_5 = "You've unlocked chapter 16 reading from Harry Potter and the Sorcerer's Stone! \n" \
+"To listen, open file explorer, then copy this link into the top search bar:\n" \
+"C:\Users\User\Desktop\Small Unmanned\project_setup"
+reading_6 = "You've unlocked chapter 16 reading from Harry Potter and the Sorcerer's Stone! \n" \
+"To listen, open file explorer, then copy this link into the top search bar:\n" \
+"C:\Users\User\Desktop\Engagement Photos\post"
 
 hunts = {
     18: hunt_1,

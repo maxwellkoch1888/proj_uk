@@ -172,3 +172,6 @@ def load_quests(day):
         print("║                                                              ║")
         print("╚══════════════════════════════════════════════════════════════╝")
         print()  
+        print("Come back when you're ready to start a new day!")
+        print("I LOVE YOU SO MUCH")
+        print("──────────────────────────────────────────────────────────────")
