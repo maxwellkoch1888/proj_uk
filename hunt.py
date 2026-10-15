@@ -29,15 +29,15 @@ reading_6 = "You've unlocked chapter 16 reading from Harry Potter and the Sorcer
 hunts = {
     18: hunt_1,
     19: reading_1,
-    20: hunt_2,
+    21: hunt_2,
     22: reading_2, 
-    23: hunt_3, 
+    24: hunt_3, 
     25: reading_3,
-    26: hunt_4,
+    27: hunt_4,
     28: reading_4,
-    29: hunt_5,
-    31: hunt_6,
-    1: hunt_7
+    30: hunt_5,
+    31: reading_5,
+    1: reading_6
 }
 
 def load_hunts(day):

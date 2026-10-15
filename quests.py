@@ -146,12 +146,13 @@ quest_6 = """
 ╚══════════════════════════════════════╝
 """
 quests = {
-2: quest_6,
 17: quest_1,
-21: quest_2, 
-24: quest_3, 
-27: quest_4,
-30: quest_5
+20: quest_2, 
+23: quest_3, 
+26: quest_4,
+29: quest_5,
+2: quest_6
+
 }
 def load_quests(day):
 
