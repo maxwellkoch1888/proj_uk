@@ -146,11 +146,11 @@ quest_6 = """
 ╚══════════════════════════════════════╝
 """
 quests = {
-17: quest_1,
-20: quest_2, 
-23: quest_3, 
-26: quest_4,
-29: quest_5,
+18: quest_1,
+22: quest_2, 
+25: quest_3, 
+28: quest_4,
+1: quest_5,
 2: quest_6
 
 }
